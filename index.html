@@ -5,7 +5,7 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WFDHNM7RFG"></script>
   <script>
-    if (window.location.hostname !== "localhost") {
+    if (!window.location.hostname.includes("localhost")) {
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
@@ -90,6 +90,11 @@
         <li>
           <a href="pages/arenatunelbatista.html" target="_self">
             Arena Túnel
+          </a>
+        </li>
+        <li>
+          <a href="pages/pontodapicanha.html" target="_self">
+            Ponto da Picanha
           </a>
         </li>
       </ul>
